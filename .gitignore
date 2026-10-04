@@ -1,0 +1,13 @@
+# Public showcase allowlist: only product documentation and screenshots belong here.
+*
+!.gitignore
+!README.md
+!README.zh-CN.md
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/bug-report.yml
+!.github/ISSUE_TEMPLATE/feature-request.yml
+!.github/ISSUE_TEMPLATE/config.yml
+!assets/
+!assets/brushplanner-workspace.png
+

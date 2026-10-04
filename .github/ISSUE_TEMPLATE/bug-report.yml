@@ -1,0 +1,48 @@
+name: Bug report / 问题反馈
+description: Tell us what went wrong in Brushplanner / 反馈使用时遇到的问题
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Brushplanner. This issue will be public.
+        Please redact personal details from screenshots. Do not upload paid/private brush packs, access tokens, or local storage files. A written description is enough to begin.
+
+        感谢反馈！此 Issue 公开可见。截图请遮住私人信息，不要上传付费或私有笔刷包、访问令牌、本地存储文件；先用文字说明即可。
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and operating system / 浏览器与操作系统
+      placeholder: "Example: Edge 140, Windows 11 / 例如：Edge 140，Windows 11"
+    validations:
+      required: true
+  - type: dropdown
+    id: storage
+    attributes:
+      label: Saving method / 保存方式
+      options:
+        - "Browser local storage / 浏览器本地保存"
+        - "A selected local folder / 已选择本地文件夹"
+        - "Not sure / 不确定"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 重现步骤
+      description: What did you click or import before the problem happened? / 出现问题前，点击或导入了什么？
+      placeholder: "1. Open Brushplanner / 打开网站\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / 预期结果与实际情况
+      description: Include the error message if there is one. / 如有报错，请附报错文字。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context / 补充信息
+      description: Optional — file extension, approximate file size, or a redacted screenshot; no brush files needed. / 可选：文件后缀、大致大小或已遮挡私人信息的截图，无需上传笔刷文件。

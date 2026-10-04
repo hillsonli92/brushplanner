@@ -1,0 +1,29 @@
+name: Feature request / 功能建议
+description: Suggest a better way to manage your brushes / 提出笔刷管理建议
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What would make organizing brushes easier for you? Suggestions are public, so please leave out private information and brush files.
+
+        什么功能会让你整理笔刷更方便？建议公开可见，请勿包含私人信息或笔刷文件。
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do? / 想完成什么操作？
+      description: Describe the task or difficulty first. / 请先说明使用场景或目前遇到的困难。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion / 你的建议
+      description: How would you like it to work? / 你希望怎样操作？
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Other approaches / 其他做法
+      description: Optional — how do you handle this now? / 可选：你现在是怎么处理的？

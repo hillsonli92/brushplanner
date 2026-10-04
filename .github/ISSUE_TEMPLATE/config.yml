@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Use Brushplanner / 打开网站
+    url: https://brushplanner.cc/
+    about: Open the hosted application / 直接使用在线应用
+  - name: Read the guide / 使用指南
+    url: https://brushplanner.cc/guide
+    about: Import, organize, save, and export your brushes / 了解导入、整理、保存与导出
